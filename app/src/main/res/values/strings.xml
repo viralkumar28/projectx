@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">ProjeKtX</string>
+    <string name="fac">Facilities</string>
+    <string name="food">Food and Cafe</string>
+    <string name="fresh">Fresh Air</string>
+    <string name="parking">Parking Area</string>
+    <string name="cc">Cozy Canopy</string>
+    <string name="add">Address</string>
+    <string name="addr">14321 Saddle Wood Dr,North Little Rock AR, 72117</string>
+    <string name="email">Enter Your Email</string>
+    <string name="pass">Enter Your Password </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="x">Create new account</string>
+
+
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+
+    <string name="w">Women\'s Health</string>
+    <string name="sh">Skin &amp; Hair</string>
+    <string name="gp">General Physician</string>
+    <string name="mentalweek">Mental Wellness</string>
+
+    <string-array name="navigation_drawer_items_array">
+        <item>Contact Us</item>
+        <item>About Us</item>
+        <item>FAQ</item>
+    </string-array>
+    <string name="title_activity_bottom_navigation">BottomNavigation</string>
+    <string name="title_home">Home</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="AboutUS">About Us</string>
+    <string name="faq">FAQ</string>
+    <string name="profile">Profile</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>

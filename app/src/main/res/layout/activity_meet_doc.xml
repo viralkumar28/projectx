@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MeetDoc"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/health"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgwomen"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/woman"/>
+        <TextView
+            android:id="@+id/helathtxt"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Women's Health "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:id="@+id/sknhir"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_alignParentRight="true"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/sknimg"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/sh"/>
+
+        <TextView
+            android:id="@+id/hirtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Skin &amp; Hair " />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/health"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:id="@+id/child"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignRight="@id/health">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/childimg"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/baby"/>
+
+        <TextView
+            android:id="@+id/childtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Child Specialist " />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_below="@id/sknhir"
+        android:id="@+id/genphy"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignRight="@id/health">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/genphyimg"
+
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/stethoscope"/>
+
+        <TextView
+            android:id="@+id/genphytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="General Physician" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/child"
+        android:id="@+id/denctalcare"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignRight="@id/health">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/dntalimg"
+
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/dentalcare"/>
+
+        <TextView
+            android:id="@+id/dentaltxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Dental Care" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_below="@id/genphy"
+        android:id="@+id/homoeopathy"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignRight="@id/health">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/homoeopathyimg"
+
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/homoeopathy"/>
+
+        <TextView
+            android:id="@+id/homoeopathytxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Homoeopathy" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@id/denctalcare"
+        android:id="@+id/boneandjoint"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignRight="@id/health">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/bjimg"
+
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/bone"/>
+
+        <TextView
+            android:id="@+id/bjtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Bone and joints" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="@dimen/_10sdp"
+
+        android:layout_below="@id/homoeopathy"
+        android:id="@+id/eye"
+        android:layout_width="@dimen/_135sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignRight="@id/health">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/eyeimg"
+
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/eye"/>
+
+        <TextView
+            android:id="@+id/eyetxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:text="Eye Specialist" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
